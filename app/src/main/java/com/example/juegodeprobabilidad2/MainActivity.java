@@ -40,8 +40,15 @@ public class MainActivity extends AppCompatActivity {
         levelText.setText(getString(R.string.nivel, nivel));
         scoreText.setText(getString(R.string.puntuacion, puntos));
 
+        // Mostrar ventana emergente al inicio
+        new AlertDialog.Builder(this)
+                .setMessage("Para jugar tienes que escoger una de las cartas e intentar que salga el AS de oro, suerte y a jugar!!")
+                .setPositiveButton("Aceptar", (dialog, which) -> dialog.dismiss())
+                .show();
+
         actualizarNivel();
     }
+
 
     private void actualizarNivel() {
         cartaSeleccionada = false;
