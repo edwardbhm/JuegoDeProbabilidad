@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 .setPositiveButton("Aceptar", (dialog, which) -> dialog.dismiss())
                 .show();
 
-        actualizarNivel();
+        actualizarNivel(); // a ver si funciona
     }
 
 
