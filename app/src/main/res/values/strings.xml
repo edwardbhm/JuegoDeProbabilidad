@@ -3,4 +3,8 @@
     <string name="record">Record: %1$d</string>
     <string name="nivel">Nivel: %1$d</string>
     <string name="puntuacion">Puntuación: %1$d</string>
+    <string name="exp">Has entrado al juego de la PROBABILIDAD, hay 10 niveles, solo tienes que elegir una carta, si sale AS de Oro pasarás al siguiente nivel, si no, podrás reiniciar la partida.</string>
+    <string name="bnb">¡BIENVENIDO!</string>
+    <string name="st">¡¡SUERTE!!</string>
+    <string name="vms">¡Vamos!</string>
 </resources>
